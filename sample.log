@@ -1,0 +1,4 @@
+2026-09-04 14:22:01.384 [ERROR] [Thread 14] MyApp.Data.SqlConnector - Connection timeout expired. The timeout period elapsed prior to obtaining a connection from the pool. This may have occurred because all pooled connections were in use and max pool size was reached.
+   at System.Data.SqlClient.SqlConnectionPool.GetConnection(DbConnection owningObject, UInt32 waitForPendingSeconds, Boolean& allowCreate)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at MyApp.Data.UserRepository.GetUserById(Guid userId) in C:\src\MyApp\Data\UserRepository.cs:line 42
