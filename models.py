@@ -1,6 +1,5 @@
 from pydantic import BaseModel, Field
 
-
 class LogAnalysisSchema(BaseModel):
     error_class: str = Field(
         description="The full .NET exception or class name where the failure occurred.")
